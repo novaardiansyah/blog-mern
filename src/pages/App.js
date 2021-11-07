@@ -1,13 +1,7 @@
-import './App.css';
+import { Routes } from "../config";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Hello World
-      </header>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
