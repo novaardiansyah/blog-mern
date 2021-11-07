@@ -1,0 +1,10 @@
+{
+  "related-information": {},
+  "search-information": [
+    {
+      "title": "Error: digital envelope routines::unsupported",
+      "url": "https://tinyurl.com/rvamk347",
+      "solution": "replace the existing script in the json package to be like this: (start: react-scripts --openssl-legacy-provider start) and (build: react-scripts --openssl-legacy-provider build)"
+    }
+  ]
+}
