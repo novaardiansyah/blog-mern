@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/input.css";
+import "./input.scss";
 
 const Input = ({ label, name, ...rest }) => {
   return (

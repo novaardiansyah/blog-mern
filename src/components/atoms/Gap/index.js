@@ -1,7 +1,16 @@
 import React from "react";
 
-const Gap = ({ width, height }) => {
-  return <div style={{ width, height }} />;
+const Gap = ({ mb, mt, pb, pt }) => {
+  return (
+    <div
+      style={{
+        marginBottom: mb,
+        marginTop: mt,
+        paddingBottom: pb,
+        paddingTop: pt,
+      }}
+    />
+  );
 };
 
 export default Gap;
