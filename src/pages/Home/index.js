@@ -1,11 +1,7 @@
 import React from "react";
 
 const Home = () => {
-  return (
-    <div>
-      <p>Home Page</p>
-    </div>
-  );
+  return <div className="container" style={{ minHeight: "100vh" }}></div>;
 };
 
 export default Home;
