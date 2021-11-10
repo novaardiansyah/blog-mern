@@ -30,6 +30,16 @@ const Footer = () => {
               <i className="bi-facebook"></i>
             </Link>
           </li>
+          <li className="ms-3">
+            <Link to="/" className="text-white">
+              <i className="bi-github"></i>
+            </Link>
+          </li>
+          <li className="ms-3">
+            <Link to="/" className="text-white">
+              <i className="bi-youtube"></i>
+            </Link>
+          </li>
         </ul>
       </footer>
     </div>
